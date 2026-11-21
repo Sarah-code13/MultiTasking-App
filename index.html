@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiTasking App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>MultiTasking App</h1>
+        <p>Student Task Planner</p>
+
+        <h2>My Tasks</h2>
+        <p>Add your assignments and tasks below.</p>
+
+        <form id="taskForm">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task or assignment"
+                aria-label="Task name"
+                maxlength="100"
+            >
+            <button type="submit">Add Task</button>
+        </form>
+
+        <p id="message" role="status"></p>
+
+        <h3>Task List</h3>
+        <ul id="taskList"></ul>
+    </div>
+
+</body>
+</html>
