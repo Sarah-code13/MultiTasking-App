@@ -67,12 +67,12 @@ I want to improve my MultiTasking App by saving tasks using JavaScript localStor
 ### Task List
 This screenshot shows the MultiTasking App with tasks added to the list so students can add, complete, and delete tasks
 
-![MultiTasking App Task List](screeenshots\tasklist.png)
+![MultiTasking App Task List](screeenshots/tasklist.png)
 
 ### Completed Task
 This screenshot shows a task marked as completed with a line through its text. The completion status is saved when the page is refreshed.
 
-![Completed Task](screeenshots\completedtask.png)
+![Completed Task](screeenshots/completedtask.png)
 
 ## Vibe Coding Reflection
 
