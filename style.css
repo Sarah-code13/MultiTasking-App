@@ -84,3 +84,28 @@ button:hover {
 .deleteButton:hover {
     background-color: #b02a37;
 }
+
+.taskCheckbox {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 18px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    accent-color: #4355b9;
+}
+
+.taskText {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+#taskList li.completed .taskText {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#taskList li.completed {
+    background-color: #e2e5eb;
+}

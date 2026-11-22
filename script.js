@@ -13,18 +13,40 @@ taskForm.addEventListener("submit", function(event) {
         message.textContent = "Please enter a task name.";
         return;
     }
+
     const newTask = document.createElement("li");
+
     const taskText = document.createElement("span");
     taskText.textContent = taskName;
+    taskText.classList.add("taskText");
+    const completeCheckbox = document.createElement("input");
+    completeCheckbox.type = "checkbox";
+    completeCheckbox.classList.add("taskCheckbox");
+    completeCheckbox.setAttribute("aria-label", "Mark " + taskName + " as completed");
+
+    completeCheckbox.addEventListener("change", function() {
+        if (completeCheckbox.checked) {
+            newTask.classList.add("completed");
+            message.textContent = "Task completed!";
+        } else {
+            newTask.classList.remove("completed");
+            message.textContent = "Task marked as incomplete!";
+        }
+    });
+
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Delete";
     deleteButton.classList.add("deleteButton");
+
     deleteButton.addEventListener("click", function() {
         newTask.remove();
         message.textContent = "Task is deleted successfully";
     });
+
+    newTask.appendChild(completeCheckbox);
     newTask.appendChild(taskText);
     newTask.appendChild(deleteButton);
+
     taskList.appendChild(newTask);
 
     message.textContent = "Task added successfully!";

@@ -45,3 +45,27 @@ I tested the application by adding multiple tasks and deleting one of them not o
 
 ### Result:
 The Delete button worked correctly, and the existing functionality was not affected.
+
+
+## Version 3  Marking Tasks as Completed
+
+### Development
+For the third version of my application, I worked on adding a feature that allows students to mark tasks as completed without deleting them I have updated the JavaScript and CSS with assistance from ChatGPT
+
+### Prompt that was used
+I want to add a feature to my MultiTasking App that allows students to mark tasks as completed when a task is completed, the text should have a line through it students should also be able to unmark a completed task keep the existing Add Task and Delete Task functionality working
+
+### AI Assistance
+I used ChatGPT to help with the checkbox functionality and CSS styling for completed tasks I have applied the changes to my application and tested the functionality
+
+### Changes Made
+- Added a checkbox beside each task
+- Updated JavaScript to mark and unmark tasks as completed
+- Added CSS to display completed tasks with a line through the text
+- Kept the Add Task and Delete Task features working
+
+### Testing
+I tested the application by adding two tasks and marking one as completed. I checked that the completed task had a line through its text and that unchecking it removed the line. I also tested the Delete button to make sure it still worked
+
+### Result
+The completed task feature worked correctly, and the existing functionality was not affected
