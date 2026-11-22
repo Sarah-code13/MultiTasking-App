@@ -96,3 +96,23 @@ I tested the application by adding multiple tasks and refreshing the page to che
 The tasks remained saved after refreshing the page and The
 completion status was also saved, and deleted tasks did not reappear
 
+## Version 5  Adding Bootstrap Framework
+
+### Development
+For the fifth version of my application, I worked on adding Bootstrap to improve the styling and responsiveness of the task planner while keeping the existing functionality 
+
+### AI Assistance
+I used ChatGPT to help me integrate Bootstrap into my existing HTML and CSS without changing the JavaScript functionality
+
+### Changes Made
+- Added Bootstrap 5 to the HTML
+- Used Bootstrap classes for the task form and buttons
+- Updated CSS to keep the purple button styling
+- Added responsive styling for smaller screens
+- Kept the existing task management features working
+
+### Testing
+I tested the application after adding Bootstrap to make sure the Add Task, Delete Task, and completed task features still worked and also I have also checked that tasks remained saved after refreshing the browser
+
+### Result
+The application continued working after adding Bootstrap, and the existing functionality was not affected

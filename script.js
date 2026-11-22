@@ -102,4 +102,3 @@ taskForm.addEventListener("submit", function(event) {
 tasks.forEach(function(task) {
     displayTask(task);
 });
-

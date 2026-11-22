@@ -109,3 +109,15 @@ button:hover {
 #taskList li.completed {
     background-color: #e2e5eb;
 }
+.btn-primary {
+    --bs-btn-bg: #4355b9;
+    --bs-btn-border-color: #4355b9;
+    --bs-btn-hover-bg: #303f91;
+    --bs-btn-hover-border-color: #303f91;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+    }
+}
