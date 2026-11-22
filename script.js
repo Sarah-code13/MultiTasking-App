@@ -13,10 +13,18 @@ taskForm.addEventListener("submit", function(event) {
         message.textContent = "Please enter a task name.";
         return;
     }
-
     const newTask = document.createElement("li");
-    newTask.textContent = taskName;
-
+    const taskText = document.createElement("span");
+    taskText.textContent = taskName;
+    const deleteButton = document.createElement("button");
+    deleteButton.textContent = "Delete";
+    deleteButton.classList.add("deleteButton");
+    deleteButton.addEventListener("click", function() {
+        newTask.remove();
+        message.textContent = "Task is deleted successfully";
+    });
+    newTask.appendChild(taskText);
+    newTask.appendChild(deleteButton);
     taskList.appendChild(newTask);
 
     message.textContent = "Task added successfully!";

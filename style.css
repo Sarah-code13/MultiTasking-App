@@ -65,3 +65,22 @@ button:hover {
     padding: 10px;
     border-radius: 5px;
 }
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.deleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.deleteButton:hover {
+    background-color: #b02a37;
+}
