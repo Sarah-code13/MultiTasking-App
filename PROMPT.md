@@ -69,3 +69,30 @@ I tested the application by adding two tasks and marking one as completed. I che
 
 ### Result
 The completed task feature worked correctly, and the existing functionality was not affected
+
+
+## Version 4  Saving Tasks Using localStorage
+
+### Development
+For the fourth version of my application, I worked on saving tasks so students don't lose their assignments when refreshing the page so I have updated the JavaScript to use localStorage while keeping the existing features working
+
+### Prompt that was used
+I want to improve my MultiTasking App by saving tasks using JavaScript localStorage currently, tasks disappear when I refresh the page i want added tasks and their completion status to be saved automatically, and deleted tasks should stay deleted keep my existing Add Task, Delete Task, and checkbox functionality working
+
+### AI Assistance
+I used ChatGPT to help with the localStorage functionality and organizing the JavaScript code. I reviewed the changes and tested the application to check that tasks were saved correctly
+
+### Changes Made
+- Added localStorage to save tasks in the browser
+- Updated JavaScript to load saved tasks when opening the application
+- Saved the completion status of each task
+- Updated the Delete functionality so removed tasks stay deleted
+- Kept the existing HTML and CSS design
+
+### Testing
+I tested the application by adding multiple tasks and refreshing the page to check if they were still there. I also marked a task as completed and refreshed the page to check that its status was saved so after that, I deleted a task and checked that it did not appear again after refreshing.
+
+### Result
+The tasks remained saved after refreshing the page and The
+completion status was also saved, and deleted tasks did not reappear
+
